@@ -84,9 +84,9 @@ function sshConnect() {
 
   ssh
     .connect({
-      host: '3.137.150.219',
+      host: '18.223.108.200',
       username: 'ubuntu',
-      privateKey: 'ghost-safari.pem'
+      privateKey: 'tequila-mockingbird'
     })
     .then(function() {
       console.log('SSH Connection established.');
